@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="EO5-FXHahxdX5P9dqAeP">
+    <mxGraphModel dx="964" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start Application" vertex="1">
+          <mxGeometry height="60" width="141" x="354.5" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelPerimeter=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="530" width="100" x="375" y="-35" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User Interface&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Analyze Password OR Generate Password&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="203" x="323.5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Results Display" vertex="1">
+          <mxGeometry height="100" width="185" x="333" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Analyze Password&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font size=&quot;1&quot;&gt;uses zxcvbn to estimate strength&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="185" x="70" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate Password&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font size=&quot;1&quot;&gt;Uses Python&#39;s secrets to generate passwords&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="185" x="600" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-8" edge="1" parent="1" source="0oq-VXnHi3i51yymsp6Y-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0oq-VXnHi3i51yymsp6Y-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="password input" vertex="1">
+          <mxGeometry height="20" width="100" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="generation settings (length, character sets, etc.)" vertex="1">
+          <mxGeometry height="20" width="270" x="460" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-11" edge="1" parent="1" source="0oq-VXnHi3i51yymsp6Y-6" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="0oq-VXnHi3i51yymsp6Y-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-12" edge="1" parent="1" source="0oq-VXnHi3i51yymsp6Y-7" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="430" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=30;" value="analysis result &amp;amp; strength score" vertex="1">
+          <mxGeometry height="20" width="100" x="233" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-30;" value="generated password" vertex="1">
+          <mxGeometry height="20" width="100" x="510.00127018922194" y="425.00025403784434" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-17" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="unittest test functions" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-18" edge="1" parent="1" source="0oq-VXnHi3i51yymsp6Y-17" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=-10;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="0oq-VXnHi3i51yymsp6Y-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oq-VXnHi3i51yymsp6Y-19" edge="1" parent="1" source="0oq-VXnHi3i51yymsp6Y-17" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0oq-VXnHi3i51yymsp6Y-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="300" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
